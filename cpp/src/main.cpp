@@ -1,7 +1,9 @@
  #include <iostream>
+ #include "Test.h"
 
  int main() {
      std::cout << "Hello World!!!" << std::endl;
-     std::cout << "코드 추가" << std::endl;
+
+     Test::Run(); // Test.cpp에 정의된 함수
      return 0;
  }
